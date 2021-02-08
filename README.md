@@ -46,7 +46,7 @@ Here, we will be using a simple algorithm known as a decision tree. Decision tre
 Here is an example of a decision tree that demonstrates the process by which an input image (in this case, of a shape) might be classified based on the number of sides it has and whether it is rotated.
 
 <p align="center">
-  <img width="450" height="650" src="https://user-images.githubusercontent.com/67468718/107117039-3e6b4800-682c-11eb-8884-79bcd4b979eb.JPG">
+  <img width="450" height="450" src="https://user-images.githubusercontent.com/67468718/107117039-3e6b4800-682c-11eb-8884-79bcd4b979eb.JPG">
 </p>
 
 
