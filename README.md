@@ -1,14 +1,11 @@
 # Project: Classify Song Genres from Audio Data Using Different Binary Classifiers
 
+## Introduction
 
+*These recommendations are so on point! How does this playlist know me so well?*
 
-|Model|Accuracy - Imbalanced|Accuracy - Balanced|AUC - Imbalanced|AUC - Balanced|% Class 0 (Missing Prediction) - Imbalanced |%Class 0 (Missing Prediction) - Balanced |% Class 0 (Missing Prediction) Improvement After SMOTE|
-|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|
-|Decision Tree - Entropy - max_depth 3|86.42798|85.92839|88.23|87.3|52.2|28.7|23.5|
-|Decision Tree - Gini - max_depth 3|86.76103|85.92839|87.73055|88.10401|50.6|28.7|22|
-|Logistic Regression|86.76103|84.26311|90.06291|90.01887|51|20.7|30.3|
-|Random Forests|86.92756|84.42964|89.74229|90.37932|55|19.5|36|
-|Gradient-Boosting|89.17569|87.01082|90.82114|90.65716|38.6|22.3|16.3|
-|<code>XGBoost</code>|<code>89.76|<code>87.43</code>|<code>91.46</code>|<code>91.11</code>|<code>36.7</code>|<code>22.7</code>|<code>14</code>|
-|SVM: Support Vector Machines|86.76103|84.26311|89.5672|90.04823|54.2|20.3|33.9|
+![Audi_song](https://user-images.githubusercontent.com/67468718/107107282-05f44b80-67e5-11eb-8b8a-669085d9361d.JPG)
 
+Over the past few years, streaming services with huge catalogs have become the primary means through which most people listen to their favorite music. But at the same time, the sheer amount of music on offer can mean users might be a bit overwhelmed when trying to look for newer music that suits their tastes.
+
+For this reason, streaming services have looked into means of categorizing music to allow for personalized recommendations. One method involves direct analysis of the raw audio information in a given song, scoring the raw data on a variety of metrics. Today, we'll be examining data compiled by a research group known as The Echo Nest. Our goal is to look through this dataset and classify songs as being either 'Hip-Hop' or 'Rock' - all without listening to a single one ourselves. In doing so, we will learn how to clean our data, do some exploratory data visualization, and use feature reduction towards the goal of feeding our data through some simple machine learning algorithms, such as decision trees and logistic regression.
