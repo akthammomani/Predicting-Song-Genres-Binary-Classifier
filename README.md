@@ -76,6 +76,9 @@ The heart of SMOTE is the construction of the **minority classes**. The intuitio
   * Repeat the steps until data is balance.
   * SMOTE is implemented in Python using the imblearn library.
   
+  ![SMOTE_before_after](https://user-images.githubusercontent.com/67468718/107222949-6d1f2500-69ca-11eb-9899-139500c4550f.JPG)
+
+  
   
 ## Best Model and Conclusion
 
