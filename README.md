@@ -2,15 +2,11 @@
 
 ## Introduction
 
-*These recommendations are so on point! How does this playlist know me so well?*
-
-![Audi_song](https://user-images.githubusercontent.com/67468718/107107282-05f44b80-67e5-11eb-8b8a-669085d9361d.JPG)
-
+*These recommendations are so on point! How does this playlist know me so well?
 
 <p align="center">
   <img width="660" height="500" src="https://user-images.githubusercontent.com/67468718/107107282-05f44b80-67e5-11eb-8b8a-669085d9361d.JPG">
 </p>
-
 
 Over the past few years, streaming services with huge catalogs have become the primary means through which most people listen to their favorite music. But at the same time, the sheer amount of music on offer can mean users might be a bit overwhelmed when trying to look for newer music that suits their tastes.
 
