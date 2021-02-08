@@ -77,6 +77,10 @@ The heart of SMOTE is the construction of the **minority classes**. The intuitio
   * SMOTE is implemented in Python using the imblearn library.
   
   ![SMOTE_before_after](https://user-images.githubusercontent.com/67468718/107222949-6d1f2500-69ca-11eb-9899-139500c4550f.JPG)
+  
+<p align="center">
+  <img width="700" height="450" src="https://user-images.githubusercontent.com/67468718/107222949-6d1f2500-69ca-11eb-9899-139500c4550f.JPG">
+</p>
 
   
   
