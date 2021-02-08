@@ -87,7 +87,7 @@ The heart of SMOTE is the construction of the **minority classes**. The intuitio
 As shown below, The Extreme Gradient Boosting (XGBoost) Model shows an overall superior Performance across the board, which is great and indicates that our model outperforms all other Models and was effectively able to classify songs as being either 'Hip-Hop' or 'Rock' - all without listening to a single one ourselves regearldess when we have balanced or imabalanced dependent variable:
 
 |Model|Accuracy - Imbalanced|Accuracy - Balanced|AUC - Imbalanced|AUC - Balanced|
-|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|
+|:---------------------------------|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|
 |Decision Tree - Entropy - max_depth 3|86.42798|85.92839|88.23|87.3|
 |Decision Tree - Gini - max_depth 3|86.76103|85.92839|87.73055|88.10401|
 |Logistic Regression|86.76103|84.26311|90.06291|90.01887|
@@ -96,17 +96,17 @@ As shown below, The Extreme Gradient Boosting (XGBoost) Model shows an overall s
 |<code>XGBoost</code>|<code>89.76|<code>87.43</code>|<code>91.46</code>|<code>91.11</code>|
 |SVM: Support Vector Machines|86.76103|84.26311|89.5672|90.04823|
 
- 
-  
+
+
 |Model|% Class 0 (Missing Prediction) - Imbalanced |%Class 0 (Missing Prediction) - Balanced |% Class 0 (Missing Prediction) Improvement After SMOTE|
-|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|
+|:---------------------------------|:---------------------------------:|:---------------------------------:|:---------------------------------:|
 |Decision Tree - Entropy - max_depth 3|52.2|28.7|23.5|
 |Decision Tree - Gini - max_depth 3|50.6|28.7|22|
 |Logistic Regression|51|20.7|30.3|
 |Random Forests|55|19.5|36|
 |Gradient-Boosting|38.6|22.3|16.3|
 |<code>XGBoost</code>|<code>36.7</code>|<code>22.7</code>|<code>14</code>|
-|SVM: Support Vector Machines|54.2|20.3|33.9|  
+|SVM: Support Vector Machines|54.2|20.3|33.9| 
     
     
 ![Confusion_Matrix](https://user-images.githubusercontent.com/67468718/107220712-85da0b80-69c7-11eb-9a83-1f4476ca2b4e.JPG)
