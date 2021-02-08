@@ -2,7 +2,7 @@
 
 ## Introduction
 
-*These recommendations are so on point! How does this playlist know me so well?
+*These recommendations are so on point! How does this playlist know me so well?*
 
 <p align="center">
   <img width="660" height="500" src="https://user-images.githubusercontent.com/67468718/107107282-05f44b80-67e5-11eb-8b8a-669085d9361d.JPG">
