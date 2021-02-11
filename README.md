@@ -31,13 +31,13 @@ Let's start by creating two pandas <code>DataFrames</code> out of these files th
 <p>Now that we have preprocessed our data, we are ready to use PCA to determine by how much we can reduce the dimensionality of our data. We can use <strong>scree-plots</strong> and <strong>cumulative explained ratio plots</strong> to find the number of components to use in further analyses.</p>
 <p>Scree-plots display the number of components against the variance explained by each component, sorted in descending order of variance. Scree-plots help us get a better sense of which components explain a sufficient amount of variance in our data. When using scree plots, an 'elbow' (a steep drop from one data point to the next) in the plot is typically used to decide on an appropriate cutoff.</p>
 
-## Further visualization of PCA
+## 5. Further visualization of PCA
 
 Unfortunately, there does not appear to be a clear elbow in this scree plot, which means it is not straightforward to find the number of intrinsic dimensions using this method.
 
 But all is not lost! Instead, we can also look at the cumulative explained variance plot to determine how many features are required to explain, say, about 85% of the variance (cutoffs are somewhat arbitrary here, and usually decided upon by 'rules of thumb'). Once we determine the appropriate number of components, we can perform PCA with that many components, ideally reducing the dimensionality of our data.
 
-## Models to classify genre
+## 6. Models to classify genre
 
 Now we can use the lower dimensional PCA projection of the data to classify songs into genres. To do that, we first need to split our dataset into 'train' and 'test' subsets, where the 'train' subset will be used to train our model while the 'test' dataset allows for model performance validation.
 
@@ -61,7 +61,7 @@ Here is an example of a decision tree that demonstrates the process by which an 
   * **SVM: Support Vector Machines**
   
 
-## SMOTE
+## 7. SMOTE
 
 SMOTE stands for **Synthetic Minority Over-Sampling Technique**. Just like the name suggests, SMOTE generates a synthetic data for the minority class and then proceeds by joining the points of the minority class with line segments and then places artificial points on these lines:
 
