@@ -86,7 +86,7 @@ The heart of SMOTE is the construction of the **minority classes**. The intuitio
 
 As shown below, The Extreme Gradient Boosting (XGBoost) Model shows an overall superior Performance across the board, which is great and indicates that our model outperforms all other Models and was effectively able to classify songs as being either 'Hip-Hop' or 'Rock' - all without listening to a single one ourselves regearldess when we have balanced or imabalanced dependent variable:
 
-|Model|Accuracy - Imbalanced|Accuracy - Balanced|AUC - Imbalanced|AUC - Balanced|
+|<code>Model</code>|<code>Accuracy - Imbalanced</code>|<code>Accuracy - Balanced</code>|<code>AUC - Imbalanced</code>|<code>AUC - Balanced</code>|
 |:---------------------------------|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|
 |Decision Tree - Entropy - max_depth 3|86.42798|85.92839|88.23|87.3|
 |Decision Tree - Gini - max_depth 3|86.76103|85.92839|87.73055|88.10401|
@@ -98,7 +98,7 @@ As shown below, The Extreme Gradient Boosting (XGBoost) Model shows an overall s
 
 
 
-|Model|% Class 0 (Missing Prediction) - Imbalanced |%Class 0 (Missing Prediction) - Balanced |% Class 0 (Missing Prediction) Improvement After SMOTE|
+|<code>Model</code>|<code>% Class 0 (Missing Prediction) - Imbalanced</code>|<code>%Class 0 (Missing Prediction) - Balanced</code>|<code>% Class 0 (Missing Prediction) Improvement After SMOTE</code>|
 |:---------------------------------|:---------------------------------:|:---------------------------------:|:---------------------------------:|
 |Decision Tree - Entropy - max_depth 3|52.2|28.7|23.5|
 |Decision Tree - Gini - max_depth 3|50.6|28.7|22|
