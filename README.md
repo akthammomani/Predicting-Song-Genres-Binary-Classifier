@@ -82,7 +82,7 @@ The heart of SMOTE is the construction of the **minority classes**. The intuitio
 
   
   
-## Best Model and Conclusion
+## 8. Best Model and Conclusion
 
 As shown below, The Extreme Gradient Boosting (XGBoost) Model shows an overall superior Performance across the board, which is great and indicates that our model outperforms all other Models and was effectively able to classify songs as being either 'Hip-Hop' or 'Rock' - all without listening to a single one ourselves regearldess when we have balanced or imabalanced dependent variable:
 
