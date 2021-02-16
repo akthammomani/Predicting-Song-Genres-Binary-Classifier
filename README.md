@@ -57,7 +57,7 @@ Here is an example of a decision tree that demonstrates the process by which an 
   * **Logistic Regression.**
   * **Random Forests.**
   * **Gradient-Boosting.**
-  * **XGBoost**
+  * **Extreme-Gradient Boosting (XGBoost)**
   * **SVM: Support Vector Machines**
   
 
